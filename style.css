@@ -1,0 +1,450 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+/* landing______page___Css */
+.landing__page {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 35%, rgb(152, 124, 219) 50%);
+  z-index: -1;
+}
+/* animation______txt */
+h1,
+h2,
+p,
+span,
+h1,
+li,
+a,
+h3,
+h4,
+i {
+  animation: animate 0.5s ease-in 1 reverse;
+}
+@keyframes animate {
+  100% {
+    transform: translateY(15px);
+  }
+}
+/* infinite______logo */
+.landing__page .infinit {
+  width: 300px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* landing_____page_____information */
+.page_info {
+  width: 300px;
+  height: 200px;
+  background: transparent;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  padding-left: 30px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.page_info p {
+  color: red;
+  font-weight: 400;
+  font-size: 20px;
+}
+.page_info span {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+}
+.page_info div p {
+  color: #000;
+  font-weight: 400;
+}
+.page_info div {
+  background-color: rgba(12, 255, 134, 1);
+  width: fit-content;
+  padding: 2px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.page_info h1 {
+  font-size: 37px;
+  font-weight: 400;
+  color: #fff;
+}
+/* Site_____owner_____information */
+.owner_info {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  top: 500px;
+  left: 90px;
+  opacity: 0px;
+}
+.owner_info .p-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 0;
+  position: relative;
+  cursor: pointer;
+}
+.p-picture img {
+  width: 100%;
+  gap: 0;
+}
+.name p {
+  font-size: 13px;
+  color: #fff;
+  left: 60px;
+}
+/* gradints________start */
+.Ellipe-1 {
+  width: 700px;
+  height: 400px;
+  top: 30px;
+  left: 600px;
+  border: none;
+  outline: hidden;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(63, 127, 191, 1);
+  background: radial-gradient(at center, rgba(63, 127, 191, 1));
+  opacity: 100%;
+  filter: blur(50px);
+  border-style: groove;
+}
+.Ellipe-1::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  left: 200px;
+  border: none;
+  outline: hidden;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(at center, rgb(255, 255, 255));
+  opacity: 100%;
+  filter: blur(50px);
+}
+
+.Ellipe-2 {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  background: rgba(63, 127, 191, 1);
+  opacity: 100%;
+  left: 850px;
+  filter: blur(50px);
+}
+
+.Ellipe-3 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  border-radius: 50%;
+  background: rgb(118, 207, 235);
+  opacity: 100%;
+  filter: blur(50px);
+}
+.Ellipe-4 {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  top: 350px;
+  left: 750px;
+  background: linear-gradient(180deg, rgba(37, 37, 37, 0) 0%, #ffffff 60.42%);
+  opacity: 100%;
+  rotate: 140deg;
+  mix-blend-mode: soft-light;
+  filter: blur(10px);
+  border-radius: 30% 40% 70% 50% 30% 10%;
+}
+.Ellipe-5 {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  top: 350px;
+  left: 1000px;
+  background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%,#ffffff 60.42%);
+  opacity: 100%;
+  rotate: 60deg;
+  mix-blend-mode: soft-light;
+  filter: blur(10px);
+  border-radius: 50%;
+}
+.Ellipe-6 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 100px;
+  left: 780px;
+  border-radius: 50%;
+  background: rgb(24, 24, 24);
+  opacity: 100%;
+  filter: blur(50px);
+}
+.Ellipe-6::before {
+  content: "";
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 40px;
+  left: -10px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 100%;
+  filter: blur(50px);
+  z-index: 3;
+}
+.Ellipe-7 {
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  top: 130px;
+  left: 800px;
+  border-radius: 50%;
+  background: rgb(2, 2, 128);
+  opacity: 100%;
+  filter: blur(50px);
+}
+.Ellipe-8 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 60.42%);
+}
+/* background______gradient____end */
+/* chrome____book____mokup___image */
+.mockup___image {
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  top: 70px;
+  left: 550px;
+  z-index: 2;
+  cursor: pointer;
+}
+.mockup___image img {
+  width: 100%;
+  background-size: cover;
+}
+/* change_____this______image */
+.ChangeThis {
+  width: 635px;
+  height: 420px;
+  position: absolute;
+  border-radius: 10px;
+  top: 70px;
+  left: 635px;
+  cursor: pointer;
+}
+/* screen____devices_____media___Querry */
+@media (max-width: 799px) {
+  /* landing_____page */
+  .landing__page {
+    background: linear-gradient(
+      150deg,
+      rgb(0, 0, 0) 25%,
+      rgb(119, 71, 233) 50%,
+      rgb(149, 28, 230) 30%
+    );
+  }
+  /* ifinite_____logo */
+  .landing__page .infinit {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  /* page___information */
+  .page_info {
+    width: 250px;
+    height: 150px;
+    background: transparent;
+    position: absolute;
+    top: 450px;
+    left: 70px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  .page_info p {
+    color: red;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .page_info span {
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .page_info div p {
+    color: #000;
+    font-weight: 400;
+  }
+  .page_info div {
+    background-color: rgba(12, 255, 134, 1);
+    width: fit-content;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  .page_info h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+  }
+  /* owner______iformation */
+  .owner_info {
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    top: 700px;
+    left: 300px;
+    opacity: 0px;
+  }
+  .owner_info .p-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 0;
+    position: relative;
+  }
+  .p-picture img {
+    width: 100%;
+    gap: 0;
+  }
+  .name p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    left: 60px;
+  }
+  /* background_______linear___gradient___start */
+  .Ellipe-1 {
+    width: 700px;
+    height: 90px;
+    top: 50px;
+    left: 4600px;
+  }
+  .Ellipe-1::after {
+    width: 90px;
+    height: 90px;
+    left: 60px;
+  }
+  .Ellipe-2 {
+    width: 800px;
+    height: 800px;
+    left: 540px;
+  }
+  .Ellipe-3 {
+    width: 90px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+  }
+  .Ellipe-4 {
+    width: 90px;
+    height: 15px;
+    top: 7px;
+    left: 500px;
+  }
+  .Ellipe-5 {
+    width: 900px;
+    height: 20px;
+    top: 100px;
+    left: 500px;
+  }
+  .Ellipe-6 {
+    width: 80px;
+    height: 100px;
+    top: 10px;
+    left: 500px;
+  }
+  .Ellipe-6::before {
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    left: -30px;
+  }
+  .Ellipe-7 {
+    width: 90px;
+    height: 90px;
+    top: 30px;
+    left: 500px;
+  }
+  .Ellipe-8 {
+    width: 70px;
+    height: 70px;
+  }
+  /* background_______linear___gradient___end */
+  /* chrome__book__mockup */
+  .mockup___image {
+    width: 500px;
+    height: 500px;
+    top: 150px;
+    left: 20px;
+  }
+/* change____this ____i */
+  .ChangeThis {
+    width: 390px;
+    height: 270px;
+    top: 150px;
+    left: 75px;
+  }
+}
+/* mobile____secreen___devices____media__querry */
+@media (max-width: 400px) {
+  .landing__page {
+    background: linear-gradient(
+      150deg,
+      rgb(0, 0, 0) 22%,
+      rgb(119, 71, 233) 60%,
+      rgb(149, 28, 230) 10%
+    );
+  }
+  .owner_info {
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    top: 700px;
+    left: 200px;
+    opacity: 0px;
+  }
+
+  .landing__page .infinit {
+    width: 150px;
+    top: 10px;
+    left: 10px;
+  }
+  .mockup___image {
+    width: 330px;
+    height: 200px;
+    top: 200px;
+    left: 20px;
+  }
+  .ChangeThis {
+    width: 268px;
+    height: 180px;
+    top: 200px;
+    left: 50px;
+  }
+}
+/* The ___end___this____code */
