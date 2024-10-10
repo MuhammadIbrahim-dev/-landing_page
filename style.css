@@ -35,6 +35,7 @@ i {
   position: absolute;
   top: 10px;
   left: 10px;
+  cursor: pointer;
 }
 /* landing_____page_____information */
 .page_info {
@@ -87,6 +88,7 @@ i {
   top: 500px;
   left: 90px;
   opacity: 0px;
+  cursor: pointer;
 }
 .owner_info .p-picture {
   width: 60px;
@@ -249,7 +251,129 @@ i {
   cursor: pointer;
 }
 /* screen____devices_____media___Querry */
-@media (max-width: 799px) {
+@media (max-width: 1290px){
+  /* landing_____page */
+  .landing__page {
+    background: linear-gradient(
+      150deg,
+      rgb(0, 0, 0) 25%,
+      rgb(119, 71, 233) 50%,
+      rgb(149, 28, 230) 30%
+    );
+  }
+  /* ifinite_____logo */
+  .landing__page .infinit {
+    width: 200px;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+  }
+  /* page___information */
+  .page_info {
+    width: 250px;
+    height: 150px;
+    background: transparent;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  .page_info p {
+    color: red;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .page_info span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .page_info div p {
+    color: #000;
+    font-weight: 400;
+  }
+  .page_info div {
+    background-color: rgba(12, 255, 134, 1);
+    width: fit-content;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  .page_info h1 {
+    font-size: 37px;
+    font-weight: 400;
+    color: #fff;
+  }
+  /* owner______iformation */
+  .owner_info {
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    top: 430px;
+    left: 600px;
+    opacity: 0px;
+  }
+  .owner_info .p-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 0;
+    position: relative;
+  }
+  .p-picture img {
+    width: 100%;
+    gap: 0;
+  }
+  .name p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    left: 60px;
+  }
+  /* background_______linear___gradient___start */
+  .Ellipe-1 {width:0;height:0;top: 0;left:0;
+  }
+  .Ellipe-1::after {width: 0;height: 0;left: 0;
+  }
+  .Ellipe-2 {width:0;height: 0;left: 0;
+  }
+  .Ellipe-3 { width: 0; height: 0;top:0;left: 0;
+  }
+  .Ellipe-4 {width: 0;height:0;top:0; left:0;
+  }
+  .Ellipe-5 { width: 0;height:0;top: 0;left: 0;
+  }
+  .Ellipe-6 {width: 0;height: 0; top: 0;left: 0;
+  }
+  .Ellipe-6::before {width: 0;height:0;top: 0;left:0;
+  }
+  .Ellipe-7 {width: 0;height: 0;top: 0;left: 0;
+  }
+  .Ellipe-8 { width: 0; height: 0;
+  }
+  /* background_______linear___gradient___end */
+  /* chrome__book__mockup */
+  .mockup___image {
+    width: 500px;
+    height: 280px;
+    top: 150px;
+    left: 20px;
+  }
+/* change____this ____i */
+  .ChangeThis {
+    width: 390px;
+    height: 270px;
+    top: 150px;
+    left: 75px;
+  }
+}
+/* screen____devices_____media___Querry */
+@media (max-width: 799px){
   /* landing_____page */
   .landing__page {
     background: linear-gradient(
@@ -334,62 +458,25 @@ i {
     left: 60px;
   }
   /* background_______linear___gradient___start */
-  .Ellipe-1 {
-    width: 700px;
-    height: 90px;
-    top: 50px;
-    left: 4600px;
+  .Ellipe-1 {width:0;height:0;top: 0;left:0;
   }
-  .Ellipe-1::after {
-    width: 90px;
-    height: 90px;
-    left: 60px;
+  .Ellipe-1::after {width: 0;height: 0;left: 0;
   }
-  .Ellipe-2 {
-    width: 800px;
-    height: 800px;
-    left: 540px;
+  .Ellipe-2 {width:0;height: 0;left: 0;
   }
-  .Ellipe-3 {
-    width: 90px;
-    height: 100px;
-    position: absolute;
-    top: 20px;
-    left: 400px;
+  .Ellipe-3 { width: 0; height: 0;top:0;left: 0;
   }
-  .Ellipe-4 {
-    width: 90px;
-    height: 15px;
-    top: 7px;
-    left: 500px;
+  .Ellipe-4 {width: 0;height:0;top:0; left:0;
   }
-  .Ellipe-5 {
-    width: 900px;
-    height: 20px;
-    top: 100px;
-    left: 500px;
+  .Ellipe-5 { width: 0;height:0;top: 0;left: 0;
   }
-  .Ellipe-6 {
-    width: 80px;
-    height: 100px;
-    top: 10px;
-    left: 500px;
+  .Ellipe-6 {width: 0;height: 0; top: 0;left: 0;
   }
-  .Ellipe-6::before {
-    width: 70px;
-    height: 70px;
-    top: 10px;
-    left: -30px;
+  .Ellipe-6::before {width: 0;height:0;top: 0;left:0;
   }
-  .Ellipe-7 {
-    width: 90px;
-    height: 90px;
-    top: 30px;
-    left: 500px;
+  .Ellipe-7 {width: 0;height: 0;top: 0;left: 0;
   }
-  .Ellipe-8 {
-    width: 70px;
-    height: 70px;
+  .Ellipe-8 { width: 0; height: 0;
   }
   /* background_______linear___gradient___end */
   /* chrome__book__mockup */
@@ -408,7 +495,7 @@ i {
   }
 }
 /* mobile____secreen___devices____media__querry */
-@media (max-width: 400px) {
+@media (max-width:599px) {
   .landing__page {
     background: linear-gradient(
       150deg,
@@ -417,6 +504,26 @@ i {
       rgb(149, 28, 230) 10%
     );
   }
+  .Ellipe-1 {width:0; height:0;top:0;left:0;
+  }
+  .Ellipe-1::after { width: 0;height: 0;left: 0;
+  }
+.Ellipe-2 {width:0;height: 0;left: 0;
+  }
+  .Ellipe-3 { width: 0; height: 0; top:0; left: 0;
+  }
+  .Ellipe-4 { width: 0; height:0;top:0;left:0;
+  }
+  .Ellipe-5 {width: 0;height:0;top: 0;left: 0;
+  }
+  .Ellipe-6 {width: 0;height: 0;top: 0;left: 0;
+  }
+  .Ellipe-6::before {width: 0;height:0;top: 0;left:0;
+  }
+  .Ellipe-7 { width: 0;height: 0;top: 0;left: 0;
+  }
+  .Ellipe-8 {width: 0;height: 0;
+  }
   .owner_info {
     width: 160px;
     height: 50px;
@@ -424,7 +531,7 @@ i {
     background-color: transparent;
     display: flex;
     align-items: center;
-    top: 700px;
+    top: 680px;
     left: 200px;
     opacity: 0px;
   }
@@ -435,16 +542,17 @@ i {
     left: 10px;
   }
   .mockup___image {
-    width: 330px;
+    width: 350px;
     height: 200px;
     top: 200px;
-    left: 20px;
+    left: 15px;
   }
   .ChangeThis {
-    width: 268px;
-    height: 180px;
+    width: 270px;
+    height: 200px;
     top: 200px;
-    left: 50px;
+    left: 52px;
   }
 }
+
 /* The ___end___this____code */
